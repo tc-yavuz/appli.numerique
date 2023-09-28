@@ -2,7 +2,7 @@
 
 [Développement web - Projet vous êtes le héros](https://smnarnold.com/projets/vous-etes-le-heros)
 
-**Genre:** Action, aventure, fiction.
+**Genre:** Action, aventure.
 
 **Inspirations:** [One Piece](https://fr.wikipedia.org/wiki/One_Piece)
 
