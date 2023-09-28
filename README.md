@@ -6,4 +6,7 @@
 
 **Inspirations:** [One Piece](https://fr.wikipedia.org/wiki/One_Piece)
 
-**Palette:** [coolors](https://coolors.co/333333-051f34-027495-01a9c1-bad6db-f4f5f5-ffffff)
+**Palette:** [coolors.co](https://coolors.co/333333-051f34-027495-01a9c1-bad6db-f4f5f5-ffffff)
+
+## Diagramme
+
