@@ -25,7 +25,7 @@ body {
     box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.1);
 }
 
-.logo {
+.gTitre {
     font-family: "one piece";
     font-weight: bold;
     font-size: 100px;
@@ -66,7 +66,7 @@ img {
     align-items: center;
 }
 
-.btn{
+#btn{
     width: 150px;
     height: 50px;
     font-size: larger;
@@ -74,7 +74,7 @@ img {
     color: #bad6db;
 }
 
-.btn:hover {
+#btn:hover {
     background-color: #333333;
     color: #ffffff;
 }

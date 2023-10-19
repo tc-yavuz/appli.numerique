@@ -1,24 +1,23 @@
 <mxfile host="65bd71144e">
     <diagram id="f9BtxXzuM7m4vzUzmkiV" name="Page-1">
-        <mxGraphModel dx="1130" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="1">
+        <mxGraphModel dx="1620" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="1">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#000000&quot;&gt;Vous etes un pirate qui veux creer un équipage de pirates.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=default;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="360" y="10" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" source="4" target="6" edge="1">
+                <mxCell id="15" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" source="4" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="330" y="310" as="targetPoint"/>
+                        <mxPoint x="300" y="170" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="300" y="170"/>
-                            <mxPoint x="300" y="300"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="17" value="Tu lui rapportes ses épées" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#171717;labelBackgroundColor=none;" parent="15" vertex="1" connectable="0">
                     <mxGeometry x="-0.0275" y="-1" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
+                        <mxPoint x="-43" y="-39" as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="4" value="Le chasseur de pirate capturé va se faire executer" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;spacing=2;fontSize=12;fontColor=#171717;strokeColor=#000000;" parent="1" vertex="1">
@@ -91,30 +90,30 @@
                     <mxGeometry x="450" y="495" width="40" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="24" value="Qui va naviguer le bateau??" style="rhombus;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="365" y="845" width="150" height="80" as="geometry"/>
+                    <mxGeometry x="365" y="1095" width="150" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" target="27" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="515" y="884.5799999999999" as="sourcePoint"/>
-                        <mxPoint x="615" y="884.5799999999999" as="targetPoint"/>
+                        <mxPoint x="515" y="1134.58" as="sourcePoint"/>
+                        <mxPoint x="615" y="1134.58" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="Vous" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" parent="1" vertex="1">
-                    <mxGeometry x="535" y="845" width="50" height="30" as="geometry"/>
+                    <mxGeometry x="535" y="1095" width="50" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="Vous ne savez pas naviguer le bateau et vous vous perdez dans l'océan" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="620" y="855" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="620" y="1105" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" source="24" target="30" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="439.58" y="945" as="sourcePoint"/>
-                        <mxPoint x="440" y="1005" as="targetPoint"/>
+                        <mxPoint x="439.58" y="1195" as="sourcePoint"/>
+                        <mxPoint x="440" y="1255" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="30" value="La voleuse sait comment naviguer et vous trouver le grand trésor!" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="1005" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="380" y="1255" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Elle rejoint l'équipage et par chance elle a la carte pour le grand trésor" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
                     <mxGeometry x="360" y="550" width="160" height="60" as="geometry"/>
@@ -131,8 +130,8 @@
                 </mxCell>
                 <mxCell id="35" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="515" y="729.5799999999999" as="sourcePoint"/>
-                        <mxPoint x="620" y="730" as="targetPoint"/>
+                        <mxPoint x="360" y="869.99" as="sourcePoint"/>
+                        <mxPoint x="262.5" y="869.4100000000001" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
@@ -143,30 +142,78 @@
                     <mxGeometry x="620" y="700" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="39" value="La voleuse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" parent="1" vertex="1">
-                    <mxGeometry x="440" y="950" width="80" height="30" as="geometry"/>
+                    <mxGeometry x="440" y="1200" width="80" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="40" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" edge="1">
                     <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="365" y="884.99" as="sourcePoint"/>
-                        <mxPoint x="260" y="884.5699999999999" as="targetPoint"/>
+                        <mxPoint x="365" y="1134.99" as="sourcePoint"/>
+                        <mxPoint x="260" y="1134.57" as="targetPoint"/>
                         <Array as="points"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="41" value="Il vous dirige dans un tsunami et vous mourez" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
-                    <mxGeometry x="140" y="855" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="140" y="1105" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="le chasseur de pirate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="840" width="130" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="43" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" parent="1" target="24" edge="1">
-                    <mxGeometry width="100" relative="1" as="geometry">
-                        <mxPoint x="439.1299999999999" y="770" as="sourcePoint"/>
-                        <mxPoint x="440" y="830" as="targetPoint"/>
-                        <Array as="points"/>
-                    </mxGeometry>
+                    <mxGeometry x="260" y="1090" width="130" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="44" value="oui" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" parent="1" vertex="1">
                     <mxGeometry x="450" y="785" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#171717;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="440" y="769.9999999999999" as="sourcePoint"/>
+                        <mxPoint x="440" y="840" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Des pirates vous attaquent et le chasseur décide de vous protéger" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="840" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#171717;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="440" y="900" as="sourcePoint"/>
+                        <mxPoint x="440" y="970" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="Il n'a pas ses épées" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="820" width="130" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Il a ses épées" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#171717;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="920" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#171717;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="515" y="729.4099999999999" as="sourcePoint"/>
+                        <mxPoint x="620" y="729.8299999999999" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="Vous mourrez et c'est la fin de l'aventure." style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Il réussi à vous protéger et vous fuyez" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="970" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#171717;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="440" y="1030" as="sourcePoint"/>
+                        <mxPoint x="440" y="1100" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Il te remercie" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#171717;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="140" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#171717;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="219.41" y="200" as="sourcePoint"/>
+                        <mxPoint x="220" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="220" y="300"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
