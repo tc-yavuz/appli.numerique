@@ -2,7 +2,7 @@ let chapters = {
     debut: {
         titre: "Le Choix Fatidique",
         description: "Vous, un pirate audacieux, étiez déterminé à former l'équipage le plus redoutable de tous les temps. Cependant, le destin avait un plan bien différent pour vous ce jour-là. Un chasseur de pirates capturé, un homme robuste aux cheveux en bataille et aux yeux perçants, était traîné devant vous. Ses poignets étaient liés, et il fixait l'horizon, résigné à son sort. Le bruit de la foule enragée monta en crescendo, réclamant la mort du chasseur. Vous aviez trois options cruciales à considérer : laisser cet homme mourir, le sauver et en faire un membre de votre équipage, ou lui rendre ses épées pour lui donner une chance de se battre pour sa vie.",
-        image: "./assets/img/imgchap1.jpg",
+        image: "./assets/img/debut.jpg",
         boutons: [
             {titre: "Le laissez mourir", destination: "noyade"},
             {titre: "Tu le sauves", destination: "alliance"},
@@ -12,7 +12,7 @@ let chapters = {
     noyade: {
         titre: "L'Abondance",
         description: "Tu le laisses mourir, tu navigues dans les mers et tu te noies immédiatement.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/noyade.jpg",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -20,7 +20,7 @@ let chapters = {
     remercie: {
         titre: "Remercie",
         description: "Il te remercie.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/remercie.jpg",
         boutons: [
             {titre: "Suite", destination: "alliance"}
         ]
@@ -28,7 +28,7 @@ let chapters = {
     alliance: {
         titre: "L'Alliance Inattendue",
         description: "Contre toute attente, vous avez choisi de sauver le chasseur de pirates. Il se leva, essuya la poussière de ses vêtements, et avec un regard de gratitude mêlé de méfiance, il prêta serment de fidélité à votre équipage. Alors que vous prépariez votre fuite de l'île, une silhouette agile se glissa dans l'ombre. Une voleuse de cartes vous proposa de rejoindre votre équipage. Ses talents pourraient s'avérer précieux, mais sa réputation était celle d'une opportuniste sans scrupules. Acceptez-vous son offre?",
-        image: "./img/allianceimg.png",
+        image: "./assets/img/alliance.webp",
         boutons: [
             {titre: "Oui", destination: "dilemme"},
             {titre: "Non", destination: "perte"}
@@ -37,7 +37,7 @@ let chapters = {
     perte: {
         titre: "Une Grande Perte",
         description: "Elle se fait capturer, et vous perdez la carte qu'elle possédait menant au grand trésor.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/perte.jpg",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -45,7 +45,7 @@ let chapters = {
     dilemme: {
         titre: "Le Dilemme de la Nourriture",
         description: "La voleuse de carte intégra rapidement l'équipage, apportant avec elle sa connaissance des mers et son talent pour dérober les trésors cachés. Votre équipage s'apprêtait à appareiller, mais une question épineuse se posa : deviez-vous remplir le bateau de provisions ou risquer de naviguer à vide?",
-        image: "./img/dilemmeimg.jpg",
+        image: "./assets/img/dilemme.webp",
         boutons: [
             {titre: "Oui", destination: "assault"},
             {titre: "Non", destination: "famine"}
@@ -54,7 +54,7 @@ let chapters = {
     assault: {
         titre: "Attaque de Pirates!",
         description: "Des pirates vous attaquent et le chasseur décide de vous protéger.",
-        image: "./img/dilemmeimg.jpg",
+        image: "./assets/img/assault.jpg",
         boutons: [
             {titre: "Suite", destination: "defaite"}
         ]
@@ -62,7 +62,7 @@ let chapters = {
     triomphe: {
         titre: "Victoire Contre les Pirates!",
         description: "Le chasseur de pirates réussit à vous protéger grâce à ses épées, et vous fuyez.",
-        image: "./img/dilemmeimg.jpg",
+        image: "./assets/img/triomphe.jpg",
         boutons: [
             {titre: "Suite", destination: "naviguer"}
         ]
@@ -70,7 +70,7 @@ let chapters = {
     defaite: {
         titre: "Defaite Contre les Pirates!",
         description: "Vous mourrez et c'est la fin de l'aventure.",
-        image: "./img/dilemmeimg.jpg",
+        image: "./assets/img/defaite.webp",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -78,7 +78,7 @@ let chapters = {
     famine: {
         titre: "La Famine",
         description: "Vous mourrez tous de faim avant de trouver le grand trésor.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/famine.jpg",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -86,7 +86,7 @@ let chapters = {
     naviguer: {
         titre: "La Naviguation",
         description: "Les cales du navire étaient remplies de provisions, prêtes à affronter les tempêtes et les longues traversées. Alors que vous vous apprêtiez à larguer les amarres, une autre décision cruciale devait être prise. Qui va naviguer le bateau ?",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/naviguer.jpg",
         boutons: [
             {titre: "Vous", destination: "capitaine"},
             {titre: "Chasseur de pirates", destination: "chasseur"},
@@ -96,7 +96,7 @@ let chapters = {
     capitaine: {
         titre: "Naviguateur: Vous!",
         description: "Vous ne savez pas naviguer le bateau et vous vous perdez dans l'océan.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/capitaine.jpg",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -104,7 +104,7 @@ let chapters = {
     chasseur: {
         titre: "Naviguateur: Le Chasseur de pirates!",
         description: "Il vous dirige dans un tsunami et vous mourez.",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/tsunami.jpg",
         boutons: [
             {titre: "Recommencer", destination: "debut"}
         ]
@@ -112,7 +112,7 @@ let chapters = {
     voleuse: {
         titre: "Naviguatrice: La Voleuse!",
         description: "La voleuse sait comment naviguer et vous trouvez le grand trésor!",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/voleuse.jpg",
         boutons: [
             {titre: "Victoire", destination: "victoire"}
         ]
@@ -120,7 +120,7 @@ let chapters = {
     victoire: {
         titre: "Victoire!",
         description: "Félicitation! Vous avez trouver le grand trésor!",
-        image: "./img/naviguerimg.webp",
+        image: "./assets/img/victoire.jpg",
         boutons: [
             {titre: "Retour", destination: "debut"}
         ]
