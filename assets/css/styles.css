@@ -57,7 +57,7 @@ img {
     max-width: 700px;
 }
 
-.bouton{
+.bouton {
     width: 640px;
     height: 100px;
     display: flex;
@@ -66,7 +66,7 @@ img {
     align-items: center;
 }
 
-#btn{
+#btn {
     width: 150px;
     height: 50px;
     font-size: larger;
@@ -78,6 +78,7 @@ img {
     background-color: #333333;
     color: #ffffff;
 }
+
 /*
 Couleur de fond du site : #051f34 
 
