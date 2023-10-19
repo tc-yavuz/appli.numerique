@@ -19,7 +19,7 @@ let chapters = {
     },
     remercie: {
         titre: "Remercie",
-        description: "Il te remercie.",
+        description: "Tu lui rends ses épées et il t'exprime sa gratitude.",
         image: "./assets/img/remercie.jpg",
         boutons: [
             {titre: "Suite", destination: "alliance"}
@@ -53,7 +53,7 @@ let chapters = {
     },
     assault: {
         titre: "Attaque de Pirates!",
-        description: "Des pirates vous attaquent et le chasseur décide de vous protéger.",
+        description: "Après avoir chargé le bateau de nourriture, vous prenez la mer, mais vous êtes attaqués par des pirates. Dans ce moment critique, le chasseur décide de vous protéger.",
         image: "./assets/img/assault.jpg",
         boutons: [
             {titre: "Suite", destination: "defaite"}
@@ -61,7 +61,7 @@ let chapters = {
     },
     triomphe: {
         titre: "Victoire Contre les Pirates!",
-        description: "Le chasseur de pirates réussit à vous protéger grâce à ses épées, et vous fuyez.",
+        description: "Le chasseur de pirates parvient à vous défendre efficacement avec ses épées, ce qui vous permet de vous échapper.",
         image: "./assets/img/triomphe.jpg",
         boutons: [
             {titre: "Suite", destination: "naviguer"}
@@ -85,7 +85,7 @@ let chapters = {
     },
     naviguer: {
         titre: "La Naviguation",
-        description: "Les cales du navire étaient remplies de provisions, prêtes à affronter les tempêtes et les longues traversées. Alors que vous vous apprêtiez à larguer les amarres, une autre décision cruciale devait être prise. Qui va naviguer le bateau ?",
+        description: "Prêtes à affronter les tempêtes et les longues traversées. Alors que vous vous apprêtiez à larguer les amarres, une autre décision cruciale devait être prise. Qui va naviguer le bateau?",
         image: "./assets/img/naviguer.jpg",
         boutons: [
             {titre: "Vous", destination: "capitaine"},
@@ -111,7 +111,7 @@ let chapters = {
     },
     voleuse: {
         titre: "Naviguatrice: La Voleuse!",
-        description: "La voleuse sait comment naviguer et vous trouvez le grand trésor!",
+        description: "La voleuse possède l'expérience nécessaire et sait comment naviguer, ce qui vous permet de découvrir le grand trésor !",
         image: "./assets/img/voleuse.jpg",
         boutons: [
             {titre: "Victoire", destination: "victoire"}
