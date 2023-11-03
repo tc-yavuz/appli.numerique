@@ -171,6 +171,15 @@ function goToChapter(chapitre) {
         objet.boutons[0].destination = "triomphe";
       }
     }
+    if (objet.video) {
+        let jeu = document.querySelector(".jeu");
+        jeu.removeChild(imgChap);
+        let mp4 = document.createElement("video");
+        mp4.setAttribute("id", "logo");
+        mp4.src = objet.video;
+        mp4.play();
+        jeu.appendChild(mp4);
+    }
   }
 }
 goToChapter("debut");
