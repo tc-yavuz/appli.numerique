@@ -21,6 +21,7 @@ let chapters = {
         titre: "Remercie",
         description: "Tu lui rends ses épées et il t'exprime sa gratitude.",
         image: "./assets/img/remercie.jpg",
+        video: "./assets/mp4/epeezoro.mp4",
         boutons: [
             {titre: "Suite", destination: "alliance"}
         ]
@@ -55,6 +56,7 @@ let chapters = {
         titre: "Attaque de Pirates!",
         description: "Après avoir chargé le bateau de nourriture, vous prenez la mer, mais vous êtes attaqués par des pirates. Dans ce moment critique, le chasseur décide de vous protéger.",
         image: "./assets/img/assault.jpg",
+        video: "./assets/mp4/bateau.mp4",
         boutons: [
             {titre: "Suite", destination: "defaite"}
         ]
