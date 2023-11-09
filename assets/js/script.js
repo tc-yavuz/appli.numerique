@@ -174,16 +174,20 @@ function goToChapter(chapitre) {
         objet.boutons[0].destination = "triomphe";
       }
     }
+    let mp4;
     if (objet.video) {
         let jeu = document.querySelector(".jeu");
-        jeu.removeChild(imgChap);
-        let mp4 = document.createElement("video");
+        imgChap.style.display = "none";
+        mp4 = document.createElement("video");
         mp4.setAttribute("id", "logo");
         mp4.src = objet.video;
         mp4.muted = true;
         mp4.loop = true;
         jeu.appendChild(mp4);
         mp4.play();
+    } else {
+        imgChap.style.display = "block";
+        jeu.removeChild(mp4);
     }
   }
 }
