@@ -156,6 +156,7 @@ function goToChapter(chapitre) {
         newBtn.textContent = objet.boutons[i].titre;
 
         newBtn.addEventListener("click", () => {
+            let audio = new Audio("")
           let chapitrePresent = objet.boutons[i].destination;
           goToChapter(chapitrePresent);
         });
@@ -177,8 +178,10 @@ function goToChapter(chapitre) {
         let mp4 = document.createElement("video");
         mp4.setAttribute("id", "logo");
         mp4.src = objet.video;
-        mp4.play();
+        mp4.muted = true;
+        mp4.loop = true;
         jeu.appendChild(mp4);
+        mp4.play();
     }
   }
 }
