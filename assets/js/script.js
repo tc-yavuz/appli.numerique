@@ -156,7 +156,9 @@ function goToChapter(chapitre) {
         newBtn.textContent = objet.boutons[i].titre;
 
         newBtn.addEventListener("click", () => {
-            let audio = new Audio("")
+            let audio = document.createElement("audio");
+            audio.src = "./assets/mp3/transition.mp3"
+            audio.play();
           let chapitrePresent = objet.boutons[i].destination;
           goToChapter(chapitrePresent);
         });
