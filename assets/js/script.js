@@ -130,6 +130,10 @@ let chapters = {
 };//Faut faire pour les autres chapitres aussi
 
 let twist = false;
+//let btnReset = document.getElementById("reset");
+/*btnReset.addEventListener("click", function() {
+        localStorage.setItemItem("save", "debut");
+    });*/
 
 function goToChapter(chapitre) {
   let objet = chapters[chapitre];
@@ -137,11 +141,14 @@ function goToChapter(chapitre) {
   if (objet != undefined) {
     let titreChap = document.getElementById("titre");
     let paragrapheChap = document.getElementById("para");
-    let imgChap = document.getElementById("logo");
+    let media = document.getElementById("media");
+    /*
+    if(media){
+        media = "";
+    }*/
 
     titreChap.textContent = objet.titre;
     paragrapheChap.textContent = objet.description;
-    imgChap.src = objet.image;
 
     let btn = document.querySelector(".bouton");
 
@@ -162,10 +169,10 @@ function goToChapter(chapitre) {
           let chapitrePresent = objet.boutons[i].destination;
           goToChapter(chapitrePresent);
         });
-
         btn.appendChild(newBtn);
       }
     }
+
     if (chapitre === "remercie") {
       twist = true;
     }
@@ -174,21 +181,22 @@ function goToChapter(chapitre) {
         objet.boutons[0].destination = "triomphe";
       }
     }
-    let mp4;
+
+    if (objet.image) {
+        let img = document.createElement("img");
+        img.src = objet.image;
+        media.appendChild(img);
+    }
+
     if (objet.video) {
-        let jeu = document.querySelector(".jeu");
-        imgChap.style.display = "none";
-        mp4 = document.createElement("video");
-        mp4.setAttribute("id", "logo");
+        let mp4 = document.createElement("video");
         mp4.src = objet.video;
         mp4.muted = true;
         mp4.loop = true;
-        jeu.appendChild(mp4);
+        media.appendChild(mp4);
         mp4.play();
-    } else {
-        imgChap.style.display = "block";
-        jeu.removeChild(mp4);
     }
   }
+  localStorage.setItem("save", chapitrePresent);
 }
-goToChapter("debut");
+goToChapter(localStorage.getItem("save"));

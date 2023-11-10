@@ -52,10 +52,30 @@ body {
     text-align: left;
 }
 
-.logo {
+#media {
     display: flex;
     margin: 0;
-    max-width: 700px;
+    height: 500px;
+    max-width: 500px;
+}
+
+#restart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#reset {
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    background-color: #01a9c1;
+    color: #bad6db;
+}
+
+#reset:hover {
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .bouton {
@@ -66,6 +86,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 
 #btn {
     width: 150px;
