@@ -142,10 +142,6 @@ function goToChapter(chapitre) {
     let titreChap = document.getElementById("titre");
     let paragrapheChap = document.getElementById("para");
     let media = document.getElementById("media");
-    /*
-    if(media){
-        media = "";
-    }*/
 
     titreChap.textContent = objet.titre;
     paragrapheChap.textContent = objet.description;
@@ -154,6 +150,10 @@ function goToChapter(chapitre) {
 
     while (btn.firstChild) {
       btn.removeChild(btn.firstChild);
+    }
+
+    while (media.firstChild) {
+        media.removeChild(media.firstChild);
     }
 
     if (objet.boutons && objet.boutons.length > 0) {
@@ -185,7 +185,11 @@ function goToChapter(chapitre) {
     if (objet.image) {
         let img = document.createElement("img");
         img.src = objet.image;
+        img.setAttribute("id", "media");
         media.appendChild(img);
+        if(objet.video) {
+            img.style.display = "none";
+        }
     }
 
     if (objet.video) {
@@ -193,10 +197,12 @@ function goToChapter(chapitre) {
         mp4.src = objet.video;
         mp4.muted = true;
         mp4.loop = true;
+        mp4.setAttribute("id", "media");
         media.appendChild(mp4);
         mp4.play();
     }
   }
-  localStorage.setItem("save", chapitrePresent);
+  //localStorage.setItem("save", chapitrePresent);
 }
-goToChapter(localStorage.getItem("save"));
+goToChapter("debut");
+//goToChapter(localStorage.getItem("save"));

@@ -56,7 +56,7 @@ body {
     display: flex;
     margin: 0;
     height: 500px;
-    max-width: 500px;
+    max-width: 30vw;
 }
 
 #restart {
