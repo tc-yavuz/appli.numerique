@@ -60,6 +60,9 @@ body {
 }
 
 #restart {
+    position: absolute;
+    left: 20px;
+    top: 20px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
