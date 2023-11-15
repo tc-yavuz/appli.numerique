@@ -130,10 +130,13 @@ let chapters = {
 };//Faut faire pour les autres chapitres aussi
 
 let twist = false;
-//let btnReset = document.getElementById("reset");
-/*btnReset.addEventListener("click", function() {
-        localStorage.setItemItem("save", "debut");
-    });*/
+let btnReset = document.getElementById("reset");
+
+btnReset.addEventListener("click", function() {
+        localStorage.removeItem("save");
+        localStorage.removeItem("twist");
+        goToChapter("debut");
+    });
 
 function goToChapter(chapitre) {
   let objet = chapters[chapitre];
@@ -174,6 +177,7 @@ function goToChapter(chapitre) {
     }
 
     if (chapitre === "remercie") {
+        localStorage.setItem("twist", twist);
       twist = true;
     }
     if (chapitre === "assault") {
@@ -202,7 +206,7 @@ function goToChapter(chapitre) {
         mp4.play();
     }
   }
-  //localStorage.setItem("save", chapitrePresent);
+  localStorage.setItem("save", chapitre);
 }
-goToChapter("debut");
-//goToChapter(localStorage.getItem("save"));
+
+goToChapter(localStorage.getItem("save") || "debut");
