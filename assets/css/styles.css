@@ -58,7 +58,7 @@ body {
     display: flex;
     border-radius: 10px;
     margin: 0;
-    height: 500px;
+    height: 400px;
     min-width: 500px;
     max-width: 550px;
 }
@@ -81,6 +81,19 @@ body {
     align-items: center;
 }
 
+#muted {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.mute {
+    font-size: larger;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
 #reset {
     width: 100px;
     height: 50px;
@@ -89,7 +102,6 @@ body {
     border: 1px solid transparent;
     background-color: transparent;
     color: #ffffff;
-    transition: background 0.2s;
     outline: transparent;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.534);
     font-weight: bold;
@@ -109,7 +121,6 @@ body {
     font-size: larger;
     background-color: transparent;
     color: #ffffff;
-    transition: background 0.2s;
     outline: transparent;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.534);
     font-weight: bold;
@@ -119,6 +130,35 @@ body {
 #btn:hover {
     background-color: #01a9c1;
     color: #ffffff;
+}
+
+@media screen and (max-width: 450px){
+    body{
+        display: block;
+    }
+
+    .jeu {
+        margin: 15vh 25vw;
+    }
+
+    .gTitre {
+        font-size: 35px;
+    }
+
+    .titre {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 15px;
+        display: flex;
+    }
+
+    #media {
+        height: 200px;
+        min-width: 100px;
+        max-width: 350px;  
+    }
 }
 
 /*

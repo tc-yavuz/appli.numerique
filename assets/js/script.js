@@ -137,8 +137,11 @@ btnReset.addEventListener("click", function() {
         localStorage.removeItem("twist");
         goToChapter("debut");
     });
-
+    
+const audio = new Audio("./assets/mp3/transition.mp3");
+    
 function goToChapter(chapitre) {
+
   let objet = chapters[chapitre];
 
   if (objet != undefined) {
@@ -166,9 +169,7 @@ function goToChapter(chapitre) {
         newBtn.textContent = objet.boutons[i].titre;
 
         newBtn.addEventListener("click", () => {
-            let audio = document.createElement("audio");
-            audio.src = "./assets/mp3/transition.mp3"
-            audio.play();
+        audio.play();
           let chapitrePresent = objet.boutons[i].destination;
           goToChapter(chapitrePresent);
         });
@@ -176,9 +177,21 @@ function goToChapter(chapitre) {
       }
     }
 
+    let radioMute = document.getElementById("mute");
+
+    radioMute.addEventListener("click", function() {
+        if (radioMute.checked) {
+            audio.volume = 0;
+            localStorage.setItem("mute", "true");
+        } else {
+            audio.volume = 0.25;
+            localStorage.setItem("mute", "false");
+        }
+      });
+
     if (chapitre === "remercie") {
+        twist = true;
         localStorage.setItem("twist", twist);
-      twist = true;
     }
     if (chapitre === "assault") {
       if (twist === true) {
