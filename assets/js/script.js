@@ -129,6 +129,19 @@ let chapters = {
     }
 };//Faut faire pour les autres chapitres aussi
 
+const audio = new Audio("./assets/mp3/transition.mp3");
+let radioMute = document.getElementById("mute");
+
+radioMute.addEventListener("click", function() {
+    if (radioMute.checked) {
+        audio.volume = 0;
+        localStorage.setItem("mute", "true");
+    } else {
+        audio.volume = 0.25;
+        localStorage.setItem("mute", "false");
+    }
+  });
+
 let twist = false;
 let btnReset = document.getElementById("reset");
 
@@ -137,8 +150,6 @@ btnReset.addEventListener("click", function() {
         localStorage.removeItem("twist");
         goToChapter("debut");
     });
-    
-const audio = new Audio("./assets/mp3/transition.mp3");
     
 function goToChapter(chapitre) {
 
@@ -177,17 +188,7 @@ function goToChapter(chapitre) {
       }
     }
 
-    let radioMute = document.getElementById("mute");
 
-    radioMute.addEventListener("click", function() {
-        if (radioMute.checked) {
-            audio.volume = 0;
-            localStorage.setItem("mute", "true");
-        } else {
-            audio.volume = 0.25;
-            localStorage.setItem("mute", "false");
-        }
-      });
 
     if (chapitre === "remercie") {
         twist = true;
