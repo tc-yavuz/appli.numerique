@@ -132,47 +132,66 @@ body {
     color: #ffffff;
 }
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 630px){
     body{
         display: block;
     }
 
     .jeu {
-        margin: 15vh 25vw;
+        min-width: auto;
+        max-width: auto;
+        min-height: auto;
+        padding: 5px;
+        margin: 0 auto;
     }
 
     .gTitre {
-        font-size: 35px;
+        font-size: 90px;
     }
 
     .titre {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .para {
         font-size: 15px;
-        display: flex;
+        padding: 10px;
+        width: auto;
     }
 
     #media {
-        height: 200px;
-        min-width: 100px;
-        max-width: 350px;  
+        height: auto;
+        width: 100%;
+        max-width: none;
+    }
+
+    #restart {
+        width: 20%;
+        left: 10px;
+        top: 10px;
+    }
+
+    .bouton {
+        width: 80%;
+    }
+
+    #btn {
+        width: 30%;
+        margin-top: 10px;
+        font-size: small;
+    }
+
+    #reset {
+        font-size: small;
+        overflow: hidden;
+    }
+
+    #muted {
+        right: 10px;
+        top: 10px;
+    }
+    
+    .mute {
+        font-size: small;
     }
 }
-
-/*
-Couleur de fond du site : #051f34 
-
-Couleur de fond du contenu : #027495
-
-Couleur de la police : #f4f5f5 
-
-Couleur de fond des boutons : #01a9c1 
-
-Couleur de fond des boutons en hover : #333333 
-
-Couleur de la police des boutons : #01a9c1 
-
-Couleur de la police des boutons en hover: #ffffff
-*/
